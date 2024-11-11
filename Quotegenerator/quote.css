@@ -1,0 +1,34 @@
+div{
+    width: 700px;
+    height: 100px;
+    /* background-color: rgb(224, 209, 209); */
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+div,button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(44, 44, 194);
+    color: white;
+    font-weight: 700;
+}
+
+
+/* button{
+    color:aqua,lightcoral,lightgreen,lightpink,lightslategray,orange,purple,yellowgreen
+} */
